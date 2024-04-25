@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: thistle;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
