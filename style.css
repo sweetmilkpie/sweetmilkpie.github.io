@@ -1,8 +1,8 @@
 nav {
     display: flex;
     flex-direction: row;
-    background-color: powderblue;
-    color: black;
+    background-color: black;
+    color:white;
     justify-content: space-around;
     align-items: center;
 }
@@ -18,11 +18,11 @@ nav a {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 
